@@ -1,71 +1,50 @@
-# FlashCards Starter Kit
+# FlashCards: Mod2 Solo Project
 
-## Fork This Repo
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Technologies and Tools](#technologies-and-tools)
+- [Setup](#setup)
+- [Roadmap](#roadmap)
+- [Sources](#sources)
+- [Contributors](#contributors)
 
-On the top right corner of this page, click the **Fork** button.
-
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-### JavaScript
-
-**Create all of your feature code files in the `src` directory.**
-
-We will be using the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
+## Project Overview
+This program was written to simulate a set of flashcards that can be reviewed through the command line. It welcomes the player to the game with a note that shows how many cards are in their deck. The player is able to see a question with a list of possible answers, click `enter` to choose their guess, and see if their guess is correct. At the end of the round, after reviewing all 30 cards, the user will see how many cards they answered correctly.
 
 ![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
 
----
+The [Turing School of Software and Design](https://turing.edu/) provided a project spec sheet for students to follow, which can be found [here](https://frontend.turing.edu/projects/flash-cards.html). The objective was for students to contribute code to a partially constructed object-oriented application, implement ES6 classes, and implement a robust testing suite using TDD.
 
-## Test Files Organization
+## Technologies and Tools
+* JavaScript
+* MacOS Terminal
+* Atom
+* Git
+* Github
 
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
+## Setup
+1. Fork this Repo
+2. Clone it down to your machine
+3. `cd` into the root of the project directory
+4. Run `node index.js` in your terminal to start playing. You will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards.
 
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
+## Roadmap
+Future features could include:
+* updating the `Game` class so that the player can review a different deck of cards each round
+* adding functionality so that the player could review the questions they answered incorrectly
+* adding functionality so that if the player's final score was less than a targeted percentage, the player would have to go through the deck again.
 
-## Running Your Tests
+## Sources
+* [freeCodeCamp - Requiring modules in Node.js: Everything you need to know](https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/)
+* [MDN - Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+* [Turing Mod2 Front-End Lesson - Linting and Testing with Hooks](https://frontend.turing.edu/lessons/module-2/testing-with-hooks-and-linting.html)
+* [Turing Mod2 Front-End Lesson - Testing: TDD, Mocha, and Chai](https://frontend.turing.edu/lessons/module-2/testing-tdd-mocha-and-chai.html)
+* [Turing Mod2 Front-End Lesson - Workflow: PRs and GH Communication](https://frontend.turing.edu/lessons/module-2/workflow-prs-and-github-communication.html)
+* [Video-to-gif converter](https://www.adobe.com/express/feature/video/video-to-gif)
+* Mentors - [Matt Roden](https://www.linkedin.com/in/matt-roden-35bb3413b/) & [Lola Dolinsky](https://www.linkedin.com/in/lola-dolinsky/)
+* My peers in Cohort 2203
 
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
-
+## Contributors
+Amber Bodnar
+* [LinkedIn](https://www.linkedin.com/in/amberbodnar/)
+* [GitHub](https://github.com/abodnar1)
