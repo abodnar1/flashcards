@@ -11,7 +11,7 @@
 ## Project Overview
 This program was written to simulate a set of flashcards that can be reviewed through the command line. It welcomes the player to the game with a note that shows how many cards are in their deck. The player is able to see a question with a list of possible answers, click `enter` to choose their guess, and see if their guess is correct. At the end of the round, after reviewing all 30 cards, the user will see how many cards they answered correctly.
 
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
+![flash cards example gif](https://media.giphy.com/media/bZP8cYAAFwyin1fbnp/giphy.gif)
 
 The [Turing School of Software and Design](https://turing.edu/) provided a project spec sheet for students to follow, which can be found [here](https://frontend.turing.edu/projects/flash-cards.html). The objective was for students to contribute code to a partially constructed object-oriented application, implement ES6 classes, and implement a robust testing suite using TDD.
 
@@ -36,11 +36,11 @@ Future features could include:
 
 ## Sources
 * [freeCodeCamp - Requiring modules in Node.js: Everything you need to know](https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/)
+* [GIPHY - Be Animated](https://giphy.com/)
 * [MDN - Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 * [Turing Mod2 Front-End Lesson - Linting and Testing with Hooks](https://frontend.turing.edu/lessons/module-2/testing-with-hooks-and-linting.html)
 * [Turing Mod2 Front-End Lesson - Testing: TDD, Mocha, and Chai](https://frontend.turing.edu/lessons/module-2/testing-tdd-mocha-and-chai.html)
 * [Turing Mod2 Front-End Lesson - Workflow: PRs and GH Communication](https://frontend.turing.edu/lessons/module-2/workflow-prs-and-github-communication.html)
-* [Video-to-gif converter](https://www.adobe.com/express/feature/video/video-to-gif)
 * Mentors - [Matt Roden](https://www.linkedin.com/in/matt-roden-35bb3413b/) & [Lola Dolinsky](https://www.linkedin.com/in/lola-dolinsky/)
 * My peers in Cohort 2203
 
