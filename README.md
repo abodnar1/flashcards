@@ -9,7 +9,7 @@
 - [Contributors](#contributors)
 
 ## Project Overview
-This program was written to simulate a set of flashcards that can be reviewed through the command line. It welcomes the player to the game with a note that shows how many cards are in their deck. The player is able to see a question with a list of possible answers, click `enter` to choose their guess, and see if their guess is correct. At the end of the round, after reviewing all 30 cards, the user will see how many cards they answered correctly.
+This program was written to simulate a set of flashcards that can be reviewed through the command line. It welcomes the player to the game with a note that shows how many cards are in their deck. The player is able to see a question with a list of possible answers, click `enter` to choose their guess, and see if their guess is correct. At the end of the round, after reviewing all 30 cards, the player will see how many cards they answered correctly.
 
 ![flash cards example gif](https://media.giphy.com/media/bZP8cYAAFwyin1fbnp/giphy.gif)
 
