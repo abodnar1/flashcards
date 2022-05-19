@@ -17,6 +17,8 @@ The [Turing School of Software and Design](https://turing.edu/) provided a proje
 
 ## Technologies and Tools
 * JavaScript
+* Mocha
+* Chai
 * MacOS Terminal
 * Atom
 * Git
@@ -25,8 +27,9 @@ The [Turing School of Software and Design](https://turing.edu/) provided a proje
 ## Setup
 1. Fork this Repo
 2. Clone it down to your machine
-3. `cd` into the root of the project directory
-4. Run `node index.js` in your terminal to start playing. You will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards.
+4. `cd` into the root of the project directory
+5. Run `npm install`
+6. Run `node index.js` in your terminal to start playing. You will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards.
 
 ## Roadmap
 Future features could include:
